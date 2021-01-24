@@ -13,58 +13,58 @@ Predicate Assertions
    are not available for the values that you are verifying
 ***************************************************/
 
-bool IsSecondValueBetweenFirstAndThirdValue( int val1, int val2, int val3 )
+bool IsSecondValueBetweenFirstAndThirdValue( int v1, int v2, int v3 )
 {
-   return (val1 < val2) && (val2 < val3);
+   return (v1 < v2) && (v2 < v3);
 }
 
 TEST( PredicateAssertions, AssertPredPass )
 {
-   int val1 = 1;
-   int val2 = 2;
-   int val3 = 3;
-   ASSERT_PRED3( IsSecondValueBetweenFirstAndThirdValue, val1, val2, val3 );
+   int v1 = 1;
+   int v2 = 2;
+   int v3 = 3;
+   ASSERT_PRED3( IsSecondValueBetweenFirstAndThirdValue, v1, v2, v3 );
 }
 
 //TEST( PredicateAssertions, AssertPredFail )
 //{
-//   int val1 = 1;
-//   int val2 = 5;
-//   int val3 = 3;
-//   ASSERT_PRED3( IsSecondValueBetweenFirstAndThirdValue, val1, val2, val3 );
+//   int v1 = 1;
+//   int v2 = 5;
+//   int v3 = 3;
+//   ASSERT_PRED3( IsSecondValueBetweenFirstAndThirdValue, v1, v2, v3 );
 //}
 //
 //TEST( PredicateAssertions, CompareFailureToBinaryAssertion )
 //{
-//   int val1 = 1;
-//   int val2 = 5;
-//   int val3 = 3;
-//   ASSERT_LT( val1, val2 );
-//   ASSERT_LT( val2, val3 );
+//   int v1 = 1;
+//   int v2 = 5;
+//   int v3 = 3;
+//   ASSERT_LT( v1, v2 );
+//   ASSERT_LT( v2, v3 );
 //}
 //
 //TEST( PredicateAssertions, CompareFailureToBooleanAssertion )
 //{
-//   int val1 = 1;
-//   int val2 = 5;
-//   int val3 = 3;
-//   ASSERT_TRUE( (val1 < val2) && (val2 < val3) );
+//   int v1 = 1;
+//   int v2 = 5;
+//   int v3 = 3;
+//   ASSERT_TRUE( (v1 < v2) && (v2 < v3) );
 //}
 //
 //TEST( PredicateAssertions, CompareFailureToBinaryAssertion2 )
 //{
-//   int val1 = 1;
-//   int val2 = 5;
-//   int val3 = 3;
-//   ASSERT_EQ( IsSecondValueBetweenFirstAndThirdValue( val1, val2, val3 ), true );
+//   int v1 = 1;
+//   int v2 = 5;
+//   int v3 = 3;
+//   ASSERT_EQ( IsSecondValueBetweenFirstAndThirdValue( v1, v2, v3 ), true );
 //}
 //
 //TEST( PredicateAssertions, CompareFailureToBooleanAssertion2 )
 //{
-//   int val1 = 1;
-//   int val2 = 5;
-//   int val3 = 3;
-//   ASSERT_TRUE( IsSecondValueBetweenFirstAndThirdValue( val1, val2, val3 ) );
+//   int v1 = 1;
+//   int v2 = 5;
+//   int v3 = 3;
+//   ASSERT_TRUE( IsSecondValueBetweenFirstAndThirdValue( v1, v2, v3 ) );
 //}
 
 /***************************************************
@@ -90,12 +90,12 @@ Even Better Output With Assertion Results
 
 TEST( AssertionResults, PassMessage )
 {
-   int val1 = 8;
-   ASSERT_TRUE( IsEven( val1 ) );
+   int v1 = 8;
+   ASSERT_TRUE( IsEven( v1 ) );
 }
 
 //TEST( AssertionResults, FailMessage )
 //{
-//   int val1 = 7;
-//   ASSERT_TRUE( IsEven( val1 ) );
+//   int v1 = 7;
+//   ASSERT_TRUE( IsEven( v1 ) );
 //}

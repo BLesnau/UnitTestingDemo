@@ -9,23 +9,23 @@ Boolean Assertions
 
 TEST( BooleanAssertions, AssertTruePass )
 {
-   int val1 = 1;
-   int val2 = 1;
-   ASSERT_TRUE( val1 == val2 );
+   int v1 = 1;
+   int v2 = 1;
+   ASSERT_TRUE( v1 == v2 );
 }
 
 TEST( BooleanAssertions, AssertFalsePass )
 {
-   int val1 = 1;
-   int val2 = 2;
-   ASSERT_FALSE( val1 == val2 );
+   int v1 = 1;
+   int v2 = 2;
+   ASSERT_FALSE( v1 == v2 );
 }
 
 //TEST( BooleanAssertions, AssertTrueFail )
 //{
-//   int val1 = 1;
-//   int val2 = 3;
-//   ASSERT_TRUE( val1 > val2 );
+//   int v1 = 1;
+//   int v2 = 3;
+//   ASSERT_TRUE( v1 > v2 );
 //}
 
 
@@ -38,23 +38,23 @@ Binary Comparison Assertions
 
 TEST( BinaryAssertions, AssertEqPass )
 {
-   int val1 = 1;
-   int val2 = 1;
-   ASSERT_EQ( val1, val2 );
+   int v1 = 1;
+   int v2 = 1;
+   ASSERT_EQ( v1, v2 );
 }
 
 TEST( BinaryAssertions, AssertGtPass )
 {
-   int val1 = 3;
-   int val2 = 1;
-   ASSERT_GT( val1, val2 );
+   int v1 = 3;
+   int v2 = 1;
+   ASSERT_GT( v1, v2 );
 }
 
 //TEST( BinaryAssertions, AssertGtFail )
 //{
-//   int val1 = 1;
-//   int val2 = 3;
-//   ASSERT_GT( val1, val2 );
+//   int v1 = 1;
+//   int v2 = 3;
+//   ASSERT_GT( v1, v2 );
 //}
 
 
@@ -109,21 +109,21 @@ Floating-Point Assertions
 
 TEST( FloatAssertions, AssertFloatEqPass )
 {
-   float val1 = 2.5;
-   float val2 = 2.500001;
-   ASSERT_FLOAT_EQ( val1, val2 );
+   float v1 = 2.5;
+   float v2 = 2.500001;
+   ASSERT_FLOAT_EQ( v1, v2 );
 }
 
 //TEST( FloatAssertions, AssertFloatEqFail )
 //{
-//   float val1 = 2.5;
-//   float val2 = 2.51;
-//   ASSERT_FLOAT_EQ( val1, val2,  );
+//   float v1 = 2.5;
+//   float v2 = 2.51;
+//   ASSERT_FLOAT_EQ( v1, v2 );
 //}
 //
 //TEST( FloatAssertions, AssertNearFail )
 //{
-//   float val1 = 2.5;
-//   float val2 = 2.51;
-//   ASSERT_NEAR( val1, val2, .01 );
+//   float v1 = 2.5;
+//   float v2 = 2.51;
+//   ASSERT_NEAR( v1, v2, .01 );
 //}
