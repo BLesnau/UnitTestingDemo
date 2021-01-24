@@ -35,6 +35,7 @@
   <ItemGroup>
     <ClCompile Include="Demo1.cpp" />
     <ClCompile Include="Demo2.cpp" />
+    <ClCompile Include="Demo3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
