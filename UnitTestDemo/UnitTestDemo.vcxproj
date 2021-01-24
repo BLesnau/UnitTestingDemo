@@ -34,6 +34,7 @@
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
     <ClCompile Include="Demo1.cpp" />
+    <ClCompile Include="Demo2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
