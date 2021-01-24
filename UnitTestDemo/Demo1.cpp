@@ -121,7 +121,7 @@ TEST( FloatAssertions, AssertFloatEqPass )
 //   ASSERT_FLOAT_EQ( v1, v2 );
 //}
 //
-//TEST( FloatAssertions, AssertNearFail )
+//TEST( FloatAssertions, AssertNearPass )
 //{
 //   float v1 = 2.5;
 //   float v2 = 2.51;
