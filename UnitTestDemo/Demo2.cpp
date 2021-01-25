@@ -20,7 +20,7 @@ bool IsSecondValueBetweenFirstAndThirdValue( int v1, int v2, int v3 )
 
 TEST( PredicateAssertions, AssertPredPass )
 {
-   int v1 = 1;
+   int v1 = 7;
    int v2 = 2;
    int v3 = 3;
    ASSERT_PRED3( IsSecondValueBetweenFirstAndThirdValue, v1, v2, v3 );
@@ -28,7 +28,7 @@ TEST( PredicateAssertions, AssertPredPass )
 
 //TEST( PredicateAssertions, AssertPredFail )
 //{
-//   int v1 = 1;
+//   int v1 = 7;
 //   int v2 = 5;
 //   int v3 = 3;
 //   ASSERT_PRED3( IsSecondValueBetweenFirstAndThirdValue, v1, v2, v3 );
@@ -36,7 +36,7 @@ TEST( PredicateAssertions, AssertPredPass )
 //
 //TEST( PredicateAssertions, CompareFailureToBinaryAssertion )
 //{
-//   int v1 = 1;
+//   int v1 = 7;
 //   int v2 = 5;
 //   int v3 = 3;
 //   ASSERT_LT( v1, v2 );
@@ -45,7 +45,7 @@ TEST( PredicateAssertions, AssertPredPass )
 //
 //TEST( PredicateAssertions, CompareFailureToBooleanAssertion )
 //{
-//   int v1 = 1;
+//   int v1 = 7;
 //   int v2 = 5;
 //   int v3 = 3;
 //   ASSERT_TRUE( (v1 < v2) && (v2 < v3) );
@@ -53,7 +53,7 @@ TEST( PredicateAssertions, AssertPredPass )
 //
 //TEST( PredicateAssertions, CompareFailureToBinaryAssertion2 )
 //{
-//   int v1 = 1;
+//   int v1 = 7;
 //   int v2 = 5;
 //   int v3 = 3;
 //   ASSERT_EQ( IsSecondValueBetweenFirstAndThirdValue( v1, v2, v3 ), true );
@@ -61,7 +61,7 @@ TEST( PredicateAssertions, AssertPredPass )
 //
 //TEST( PredicateAssertions, CompareFailureToBooleanAssertion2 )
 //{
-//   int v1 = 1;
+//   int v1 = 7;
 //   int v2 = 5;
 //   int v3 = 3;
 //   ASSERT_TRUE( IsSecondValueBetweenFirstAndThirdValue( v1, v2, v3 ) );
