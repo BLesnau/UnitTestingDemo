@@ -41,6 +41,7 @@
     <ClCompile Include="Demo6.cpp" />
     <ClCompile Include="Demo7.cpp" />
     <ClCompile Include="Demo8.cpp" />
+    <ClCompile Include="Demo9.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
