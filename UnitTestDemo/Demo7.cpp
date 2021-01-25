@@ -55,6 +55,9 @@ TEST( ExpectCall, WillRepeatedly )
    adder.AddNumbers( &retrieverMock1, &retrieverMock2, 50, 100 );
 }
 
+/***************************************************
+WillOnce ensures a method is called exactly one time
+***************************************************/
 TEST( ExpectCall, WillOnce )
 {
    NiceMock<MockNumberRetriever4> retrieverMock1;
@@ -70,6 +73,10 @@ TEST( ExpectCall, WillOnce )
    //Show what happens when the method is not called
 }
 
+/***************************************************
+Times ensures a method is called exactly the number
+of times that you provide
+***************************************************/
 TEST( ExpectCall, Times )
 {
    NiceMock<MockNumberRetriever4> retrieverMock1;
