@@ -34,6 +34,8 @@ Binary Comparison Assertions
    ASSERT_EQ( value1, value2 ) - ASSERT_NE( value1, value2 )
    ASSERT_GT( value1, value2 ) - ASSERT_LT( value1, value2 )
    ASSERT_GE( value1, value2 ) - ASSERT_LE( value1, value2 )
+
+   Better failure output than Boolean assertions
 ***************************************************/
 
 TEST( BinaryAssertions, AssertEqPass )
@@ -62,6 +64,8 @@ TEST( BinaryAssertions, AssertGtPass )
 String Assertions
    ASSERT_STREQ( value1, value2 ) - ASSERT_STRNE( value1, value2 )
    ASSERT_STRCASEEQ( value1, value2 ) - ASSERT_STRCASENE( value1, value2 )
+
+   Better failure output than Boolean or Binary assertions
 ***************************************************/
 
 TEST( StringAssertions, AssertStrEqPass )
