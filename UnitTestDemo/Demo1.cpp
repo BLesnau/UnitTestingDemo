@@ -96,6 +96,17 @@ TEST( StringAssertions, AssertStrEqPass )
 //   ASSERT_TRUE( str1 == str2 );
 //}
 
+//TEST( StringAssertions, StringTypes )
+//{
+//   std::string str1 = "ThisIsAString";
+//   std::string str2 = "ThisIsAString";
+//
+//   //std::wstring str1 = L"ThisIsAString";
+//   //std::wstring str2 = L"ThisIsAString";
+//
+//   ASSERT_STREQ( str1.c_str(), str2.c_str() );
+//}
+
 /***************************************************
 Floating-Point Assertions
    ASSERT_FLOAT_EQ( value1, value2 )
